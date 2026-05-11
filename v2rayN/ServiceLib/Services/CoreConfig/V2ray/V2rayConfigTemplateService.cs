@@ -144,7 +144,7 @@ public partial class CoreConfigV2rayService
             return false;
         }
 
-        if (outbound.protocol is "freedom" or "blackhole" or "dns" or "loopback")
+        if (outbound.protocol is "blackhole" or "dns" or "loopback")
         {
             return false;
         }
